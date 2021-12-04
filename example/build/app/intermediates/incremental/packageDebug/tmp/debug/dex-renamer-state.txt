@@ -1,0 +1,4 @@
+#Thu Sep 23 07:24:32 PDT 2021
+base.0=/Volumes/SDATA/working/flutter_keyboard_visibility/example/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.github.adee42.keyboardvisibilityexample"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml
+10
+11    <!--
+12         The INTERNET permission is required for development. Specifically,
+13         flutter needs it to communicate with the running application
+14         to allow setting breakpoints, to provide hot reload, etc.
+15    -->
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:8:5-66
+16-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:8:22-64
+17    <!--
+18     io.flutter.app.FlutterApplication is an android.app.Application that
+19         calls FlutterMain.startInitialization(this); in its onCreate method.
+20         In most cases you can leave this as-is, but you if you want to provide
+21         additional functionality it is fine to subclass or reimplement
+22         FlutterApplication and put your custom class here.
+23    -->
+24    <application
+24-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:15:5-43:19
+25        android:name="io.flutter.app.FlutterApplication"
+25-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:16:9-57
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.1.0] /Users/welcome/.gradle/caches/transforms-3/e908630cd5baa8b03d79cfa6fd59d092/transformed/core-1.1.0/AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:18:9-43
+29        android:label="keyboard_visibility_example" >
+29-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:17:9-52
+30        <activity
+30-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:19:9-37:20
+31            android:name="com.github.adee42.keyboardvisibilityexample.MainActivity"
+31-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:20:13-41
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+32-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:23:13-137
+33            android:hardwareAccelerated="true"
+33-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:24:13-47
+34            android:launchMode="singleTop"
+34-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:21:13-43
+35            android:theme="@style/LaunchTheme"
+35-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:22:13-47
+36            android:windowSoftInputMode="adjustResize" >
+36-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:25:13-55
+37
+38            <!--
+39                 This keeps the window background of the activity showing
+40                 until Flutter renders its first frame. It can be removed if
+41                 there is no splash screen (such as the default splash screen
+42                 defined in @style/LaunchTheme).
+43            -->
+44            <meta-data
+44-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:30:13-32:40
+45                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+45-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:31:17-82
+46                android:value="true" />
+46-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:32:17-37
+47
+48            <intent-filter>
+48-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:33:13-36:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:34:17-68
+49-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:34:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:35:17-76
+51-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:35:27-74
+52            </intent-filter>
+53        </activity>
+54
+55        <meta-data
+55-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:39:9-41:33
+56            android:name="flutterEmbedding"
+56-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:40:13-44
+57            android:value="2" />
+57-->/Volumes/SDATA/working/flutter_keyboard_visibility/example/android/app/src/main/AndroidManifest.xml:41:13-30
+58    </application>
+59
+60</manifest>
